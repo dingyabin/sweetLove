@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>致梦佳</title>
+  <link rel="stylesheet" type="text/css" href="css/typeit.css"> 
+  <link rel="stylesheet" type="text/css" href="css/content.css"> 
+  <script src="js/txt.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/typeit.js"></script>
+  <script type="text/javascript">
+
+		$(function(){
+			$("#container").height($(window).height()-20);
+			$("#container").css("opacity",0.65);//透明度
+			start(0);
+		})
+
+	   /**
+		*开始打印，
+		*@param index:要显示的话的序号
+		*/
+       function start(index){
+		    //防止递归进入死循环，若已经是最后一段，则退出
+		    if(typeof(keys[index])=='undefined'){
+				return;
+			}
+			var parentdiv=$('<div></div>');  //创建一个父div
+			parentdiv.addClass(map[keys[index]].cls);//添加css样式
+			parentdiv.attr('id',keys[index]);//添加css样式
+            $('#container').append(parentdiv);//将父div添加到body中
+			var ifrep=map[keys[index]].content.length>1?false:true
+			$('#'+keys[index]).typeIt({
+				   delayStart:700,
+				   whatToType: map[keys[index]].content,
+				   breakWait:800,
+				   typeSpeed: 330,
+				   stopDeleteWord: map[keys[index]].stopDeleteWord,
+				   breakLines:ifrep,
+				   showCursor:true				   
+				 }, function(){
+						$(this.theElement).data().typeit.stopTyping();//停止打印，光标消失
+						start(index+1);
+		          })		
+		}		
+	  </script>
+ </head>
+ <body>
+ <img  src="image/sad.gif" style="z-index:10;float:left"/>
+ <img  src="image/fog.gif" style="z-index:10;float:right"/>
+ <div id="container">
+       <img  src="image/dog.gif" style="z-index:10;float:right"/>
+ </div> 
+
+  <div>
+	<embed src="music/music.mp3"  autostart="true" loop="1000" width="0px" height="0px"/>
+  </div>
+ </body>
+</html>

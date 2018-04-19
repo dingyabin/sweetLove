@@ -1,0 +1,35 @@
+﻿body{
+     margin:0px 0px;
+     padding:0px 0px;		
+	 font-family: 微软雅黑,宋体;
+	 background: url("../image/back.jpg") repeat  left 
+}
+
+#container{
+	line-height: 1.5em;
+	width:48%;
+	margin: 0px auto;
+	padding:10px;
+	border-radius:10px;
+	background: url("../image/font_back.png") repeat right top 
+}
+
+.header{
+	font-size: 1.4em;
+	text-align: center;	
+}
+.normal{
+	font-weight:640;
+}
+
+.center{
+	font-weight:640;
+	text-align: center;	
+	color:#009900
+}
+
+.right{
+	font-weight:640;
+	text-align: right;		
+}
+
