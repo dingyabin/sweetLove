@@ -14,7 +14,7 @@
 			$("#container").height($(window).height()-20);
 			$("#container").css("opacity",0.65);//透明度
 			start(0);
-		})
+		});
 
 	   /**
 		*开始打印，
@@ -29,7 +29,7 @@
 			parentdiv.addClass(map[keys[index]].cls);//添加css样式
 			parentdiv.attr('id',keys[index]);//添加css样式
             $('#container').append(parentdiv);//将父div添加到body中
-			var ifrep=map[keys[index]].content.length>1?false:true
+			var ifrep=map[keys[index]].content.length <= 1;
 			$('#'+keys[index]).typeIt({
 				   delayStart:700,
 				   whatToType: map[keys[index]].content,
@@ -53,7 +53,7 @@
  </div> 
 
   <div>
-	<embed src="music/music.mp3"  autostart="true" loop="1000" width="0px" height="0px"/>
+	<embed src="music/music.mp3"  autostart="true" loop="1000" width="0px" height="0px"></embed>
   </div>
  </body>
 </html>
