@@ -13,7 +13,6 @@
         $(function () {
             $("#container").height($(window).height() - 20);
             $("#container").css("opacity", 0.65);//透明度
-            start(0);
         });
 
         /**
@@ -53,7 +52,7 @@
 </div>
 
 <div>
-    <audio src="music/music.mp3" autoplay="autoplay" loop="loop"></audio>
+    <audio src="music/music.mp3" autoplay="autoplay" loop="loop" oncanplay="start(0)"></audio>
 </div>
 </body>
 </html>
