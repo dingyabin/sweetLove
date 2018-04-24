@@ -1,14 +1,14 @@
 ﻿body{
-     margin:0px 0px;
-     padding:0px 0px;		
-	 font-family: 微软雅黑,宋体;
-	 background: url("../image/back.jpg") repeat  left
+     margin:0 0;
+     padding:0 0;
+	 font-family: 微软雅黑, 宋体, serif;
+	 background: url("../image/back.jpg") repeat  left center
 }
 
 #container{
 	line-height: 1.5em;
 	width:48%;
-	margin: 0px auto;
+	margin: 0 auto;
 	padding:10px;
 	border-radius:10px;
 	background: url("../image/font_back.png") repeat right top 
@@ -19,17 +19,17 @@
 	text-align: center;	
 }
 .normal{
-	font-weight:640;
+	font-weight:200;
 }
 
 .center{
-	font-weight:640;
+	font-weight:200;
 	text-align: center;	
 	color:#009900
 }
 
 .right{
-	font-weight:640;
+	font-weight:200;
 	text-align: right;		
 }
 
