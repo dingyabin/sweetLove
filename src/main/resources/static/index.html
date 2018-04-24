@@ -10,20 +10,11 @@
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/typeit.js"></script>
     <script type="text/javascript">
-        var init = false;
-
         $(function () {
             $("#container").height($(window).height()+10);
             $("#container").css("opacity", 0.65);//透明度
         });
 
-
-        function startPlaying() {
-            if (init == false) {
-                init = true;
-                start(0);
-            }
-        }
 
         /**
          *开始打印，
@@ -62,7 +53,7 @@
 </div>
 
 <div>
-    <audio src="music/music.mp3" autoplay="autoplay" loop="loop" onplay="startPlaying()"></audio>
+    <audio src="music/music.mp3" autoplay="autoplay" loop="loop" onplay="start(0)"></audio>
 </div>
 </body>
 </html>

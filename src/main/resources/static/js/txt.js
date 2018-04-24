@@ -51,39 +51,75 @@ map["para_7"]={
 
 
 map["para_8"]={
-		cls:'normal', 
-		content:["　　以前会有人告诉我，说我是一个好人。"]
-	};
+	cls:'normal',
+	content:["　　 你喜欢吃辣，正如你的性格一样，爽朗大方。"]
+};
 
 
 map["para_9"]={
 	cls:'normal',
-	content:["　　后来我讨厌做好人，想做一个“坏人”。"]
+	content:["　　 你喜欢笑，你的每次嘴角上扬都让我的心跟着融化。"]
 };
 
 
 map["para_10"]={
 	cls:'normal',
-	content:["　　而现在，我不想做好人，也不想做坏人，只想做你的心上人。"]
+	stopDeleteWord:"美食陪伴",
+	content:["　　 你喜欢在银幕前嚼爆米花，你说电影无聊时至少还有美食陪伴，（嘿嘿，其实可以陪伴你的除了爆米花，还有我啊）","。"]
 };
 
 
-map["para_11"]={cls:'center', content:["我倚窗前思红颜，"]};
+map["para_11"]={
+	cls:'normal',
+	content:["　　 从没想过自己会如此的幸运被丘比特之箭射中从而遇见小仙女，更不敢想自己能把这些话讲给她听。"]
+};
+
+map["para_12"]={
+	cls:'normal',
+	content:["　　 人说，喜欢一个人，生活的每一个片段都会变得有意义起来。我好喜欢这句话，因为此刻的我就连改bug，都觉得好开心！"]
+};
+
+
+map["para_13"]={
+		cls:'normal', 
+		content:["　　以前会有人告诉我，说我是一个好人。"]
+	};
+
+
+map["para_14"]={
+	cls:'normal',
+	content:["　　后来我讨厌做好人，想做一个“坏人”。"]
+};
+
+
+map["para_15"]={
+	cls:'normal',
+	content:["　　而现在，我不想做好人，也不想做坏人，只想做你的心上人。"]
+};
+
+map["para_16"]={
+	cls:'normal',
+	stopDeleteWord:"一世的",
+	content:["　　我攒够了一世的话，","情话，只差一个身份了。"]
+};
+
+
+map["para_17"]={cls:'center', content:["我倚窗前思红颜，"]};
 
 
 
-map["para_12"]={cls:'center', content:["喜雨漫洒串珠帘。"]};
+map["para_18"]={cls:'center', content:["喜雨漫洒串珠帘。"]};
 
 
 
-map["para_13"]={cls:'center', content:["欢舞翩翩飘梦影，"]};
+map["para_19"]={cls:'center', content:["欢舞翩翩飘梦影，"]};
 
 
 
-map["para_14"]={cls:'center', content:["你似佳人胜花仙。"]};
+map["para_20"]={cls:'center', content:["你似佳人胜花仙。"]};
 
 
-map["para_15"]={cls:'right', content:["丁亚宾"]};
+map["para_21"]={cls:'right', content:["丁亚宾 亲笔"]};
 
 
 
