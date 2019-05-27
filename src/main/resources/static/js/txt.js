@@ -1,14 +1,14 @@
 ﻿var map={};
 map["para_0"]={
 		cls:'header',
-		content:["致梦佳"]
+		content:["致倩倩"]
 	};
 
 
 map["para_1"]={
 	   cls:'normal',
-	   stopDeleteWord:"漂酿的",
-	   content:["马梦佳  ","梦佳  ","超级无敌可爱漂酿的梦佳:","小仙女梦佳:"]
+	   stopDeleteWord:"帅气的",
+	   content:["赵倩  ","倩倩","可爱漂酿温柔帅气的倩倩","小仙女倩倩:"]
 	};
 
 
@@ -21,7 +21,7 @@ map["para_2"]={
 map["para_3"]={
 		cls:'normal', 
 		stopDeleteWord:"焦虑又略带紧张吧。",
-		content:["　　我在想当你读到这里的时候，我此刻的内心活动会是怎样的。嗯，应该是喜悦、忐忑、焦虑又略带紧张吧。(看这形容词用的多贴切),", "喜悦的是终于能把想了好久的话说给你听了，忐忑的是不知道你喜不喜欢这些话，更不知道你喜不喜欢这样的我。好了，准备好了么？要开始了，我说，你听。"]
+		content:["　　不知怎地，今早一觉醒来，发现好像还有好多话昨晚木有说完， 于是我有点怪自己昨晚从那家西餐厅出来早了好了，准备好了么？要开始了，我说，你听。"]
 	};
 
 
@@ -104,7 +104,7 @@ map["para_16"]={
 };
 
 
-map["para_17"]={cls:'center', content:["我倚窗前思红颜，"]};
+map["para_17"]={cls:'center', content:["我倚窗前思倩倩，"]};
 
 
 
@@ -116,7 +116,7 @@ map["para_19"]={cls:'center', content:["欢舞翩翩飘梦影，"]};
 
 
 
-map["para_20"]={cls:'center', content:["你似佳人胜花仙。"]};
+map["para_20"]={cls:'center', content:["你似伊人胜花仙。"]};
 
 
 map["para_21"]={cls:'right', content:["丁亚宾 亲笔"]};
