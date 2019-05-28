@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>致倩倩</title>
-    <link rel="icon" href="image/heart.ico" type="image/x-icon">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/typeit.css">
     <link rel="stylesheet" type="text/css" href="css/content.css">
     <script src="js/txt.js"></script>
@@ -23,7 +23,7 @@
          */
         function start(index) {
             //防止递归进入死循环，若已经是最后一段，则退出
-            if (typeof(keys[index]) == 'undefined') {
+            if (typeof(keys[index]) === 'undefined') {
                 $('#bay').autoMove({angle:-Math.PI/4, speed:100});
                 $('#bay').css("display","block");
                 return;
