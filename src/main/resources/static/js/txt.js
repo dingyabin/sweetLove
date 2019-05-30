@@ -71,68 +71,74 @@ map["para_10"]={
 
 
 map["para_11"]={
-	cls:'normal',
-	content:["　　 你有份属于自己的倔强，要输就输给梦想，要嫁就嫁给爱情。你的倔强，我能懂，真的。"]
+    cls:'normal',
+    content:["　　 你坚持着自己的原则，宁缺毋滥，是你对这妄想让你屈服的生活的反抗。"]
 };
 
 
 map["para_12"]={
 	cls:'normal',
-	content:["　　 人说，心里藏着一个人，生活的每一个片段都会变得有意义起来。我好喜欢这句话，因为最近的我就连改bug，都觉得好开心！"]
+	content:["　　 你有份属于自己的倔强，要输就输给梦想，要嫁就嫁给爱情。你的倔强，我能懂，真的。"]
 };
 
 
 map["para_13"]={
+	cls:'normal',
+	content:["　　 人说，心里藏着一个人，生活的每一个片段都会变得有意义起来。我好喜欢这句话，因为最近的我就连改bug，都觉得好开心！"]
+};
+
+
+map["para_14"]={
 		cls:'normal', 
 		content:["　　以前会有人告诉我，说我是一个好人。"]
 	};
 
 
-map["para_14"]={
+map["para_15"]={
 	cls:'normal',
 	content:["　　后来我讨厌做好人，想做一个“坏人”。"]
 };
 
 
-map["para_15"]={
+map["para_16"]={
 	cls:'normal',
     stopDeleteWord:"只想做",
 	content:["　　而现在，我不想做好人，也不想做坏人，只想做你","眼前人的心上人。"]
 };
 
 
-map["para_16"]={
+map["para_17"]={
 	cls:'normal',
 	content:["　　还是想跟你去看遍世界上所有美好的景色。"]
 };
 
 
-map["para_17"]={
+map["para_18"]={
     cls:'normal',
     content:["　　晚安，做个好梦，清晨讲给我听。"]
 };
 
 
-map["para_18"]={cls:'center', content:["我倚窗前思红颜，"]};
+map["para_19"]={cls:'center', content:["我倚窗前思红颜，"]};
 
 
 
-map["para_19"]={cls:'center', content:["喜雨漫洒串珠帘。"]};
+map["para_20"]={cls:'center', content:["喜雨漫洒串珠帘。"]};
 
 
 
-map["para_20"]={cls:'center', content:["欢舞翩翩飘倩影，"]};
+map["para_21"]={cls:'center', content:["欢舞翩翩飘倩影，"]};
 
 
 
-map["para_21"]={cls:'center', content:["你似伊人胜花仙。"]};
+map["para_22"]={cls:'center', content:["你似伊人胜花仙。"]};
 
 
-map["para_22"]={cls:'right', content:["丁亚宾 亲笔 2019年5月30日夜"]};
+map["para_23"]={cls:'right', content:["丁亚宾 亲笔 2019年5月30日夜"]};
 
 
 
 var keys=[];
 for(var key in map){
-  keys.push(key); 
+  keys.push(key);
 }
